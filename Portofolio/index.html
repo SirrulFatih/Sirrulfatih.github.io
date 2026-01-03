@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Sirrul Fatih Ahdiat | Portfolio</title>
+    <meta name="description" content="Portofolio Sirrul Fatih Ahdiat">
+    <meta name="keywords" content="web developer, portfolio, frontend developer">
+    <meta name="author" content="Sirrul Fatih Ahdiat">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/portfolio/">
+    <meta property="og:title" content="Sirrul Fatih Ahdiat  | Portfolio">
+    <meta property="og:description" content="Portofolio Sirrul Fatih Ahdiat">
+    <meta property="og:image" content="assets/images/og-image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://yourusername.github.io/portfolio/">
+    <meta name="twitter:title" content="Sirrul Fatih Ahdiat  | Portfolio">
+    <meta name="twitter:description" content="Portofolio Sirrul Fatih Ahdiat">
+    <meta name="twitter:image" content="assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/icons/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <span class="logo-accent">Sirrul Fatih Ahdiat</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Close Button Mobile -->
+                <button class="nav__close" id="nav-close" aria-label="Close menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Hamburger Menu Toggle -->
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main" id="main-content">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <span class="hero__subtitle">Hello, I'm</span>
+                    <h1 class="hero__title">Sirrul Fatih Ahdiat</h1>
+                    <p class="hero__description">
+                        Informatics student at Universitas Sultan Ageng Tirtayasa (GPA 3.86) | with a strong passion for
+                        <span class="text-accent">Web Development , Mobile Development, Data Analysis, and Artificial
+                            Intelligence. </span>
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#projects" class="btn btn--primary">Lihat Project</a>
+                        <a href="assets/cv.pdf" class="btn btn--outline" download>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7,10 12,15 17,10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            Download CV
+                        </a>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="hero__social">
+                        <a href="https://github.com/SirrulFatih" target="_blank" rel="noopener noreferrer"
+                            class="social__link" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/sirrul-fatih" target="_blank" rel="noopener noreferrer"
+                            class="social__link" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/sirrulfatih_" target="_blank" rel="noopener noreferrer"
+                            class="social__link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero__image">
+                    <div class="hero__image-wrapper">
+                        <div class="hero__blob"></div>
+                        <img src="assets/images/profile.jpg" alt="Sirrul Fatih Ahdiat" class="hero__img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Down Indicator -->
+            <a href="#about" class="hero__scroll" aria-label="Scroll down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7" />
+                </svg>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container about__container--centered">
+                    <div class="about__content">
+                        <p class="about__description">
+                            Saya adalah mahasiswa Informatika Fakultas Teknik Universitas Sultan Ageng Tirtayasa
+                            angkatan 2023 yang memiliki ketertarikan pada dunia pemrograman dan pengembangan teknologi.
+                            Saya senang mempelajari hal-hal baru, mengeksplorasi berbagai teknologi, serta belajar dari
+                            setiap proses dan kesalahan yang saya alami.
+
+                            Saat ini, saya fokus mengembangkan keterampilan di bidang mobile application development,
+                            web development, Data Analysis, AI dan pemrograman secara umum. Dalam jangka panjang, saya
+                            memiliki visi untuk
+                            membangun startup berbasis teknologi yang mampu memberikan solusi nyata bagi masyarakat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Skills</h2>
+
+                <div class="skills__container">
+                    <!-- Technical Skills -->
+                    <div class="skills__group">
+                        <h3 class="skills__group-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                            Technical Skills
+                        </h3>
+
+                        <div class="skills__list skills__list--tags">
+                            <div class="skill__category">
+                                <span class="skill__category-label">Mobile Development</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">Flutter (Dart)</span>
+                                </div>
+                            </div>
+
+                            <div class="skill__category">
+                                <span class="skill__category-label">Frontend Web</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">HTML</span>
+                                    <span class="skill__tag">CSS</span>
+                                    <span class="skill__tag">JavaScript</span>
+                                </div>
+                            </div>
+
+                            <div class="skill__category">
+                                <span class="skill__category-label">Backend Web</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">PHP</span>
+                                </div>
+                            </div>
+
+                            <div class="skill__category">
+                                <span class="skill__category-label">Programming Languages</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">Python</span>
+                                    <span class="skill__tag">Java</span>
+                                    <span class="skill__tag">C++</span>
+                                </div>
+                            </div>
+
+                            <div class="skill__category">
+                                <span class="skill__category-label">Database</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">MySQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Software -->
+                    <div class="skills__group">
+                        <h3 class="skills__group-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                <line x1="8" y1="21" x2="16" y2="21" />
+                                <line x1="12" y1="17" x2="12" y2="21" />
+                            </svg>
+                            Tools & Software
+                        </h3>
+
+                        <div class="skills__list skills__list--tags">
+                            <div class="skill__category">
+                                <span class="skill__category-label">Code Editor</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">Visual Studio Code</span>
+                                </div>
+                            </div>
+
+                            <div class="skill__category">
+                                <span class="skill__category-label">Version Control</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">Git</span>
+                                    <span class="skill__tag">GitHub</span>
+                                </div>
+                            </div>
+
+                            <div class="skill__category">
+                                <span class="skill__category-label">Office Tools</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">Microsoft Word</span>
+                                    <span class="skill__tag">Excel</span>
+                                </div>
+                            </div>
+
+                            <div class="skill__category">
+                                <span class="skill__category-label">Design Tools</span>
+                                <div class="skill__tags">
+                                    <span class="skill__tag">Canva</span>
+                                    <span class="skill__tag">Figma</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <h2 class="section__title">Education</h2>
+
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date">2024 - Sekarang</span>
+                            <h3 class="timeline__title">S1 Informatika</h3>
+                            <p class="timeline__subtitle">Universitas Sultan Ageng Tirtayasa</p>
+                            <p class="timeline__description">
+                                Mahasiswa Informatika 2023 Fakultas Teknik Universitas Sultan Ageng Tirtayasa dengan IPK
+                                3.86.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section__title">Experience</h2>
+
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date">Feb 2024 - Jun 2024</span>
+                            <h3 class="timeline__title">Digital Talent Scholarship</h3>
+                            <p class="timeline__subtitle">Java Fundamentals & Java Programming (Talent Scouting Academy)
+                            </p>
+                            <p class="timeline__description">
+                                Mengikuti program Talent Scouting Academy – Digital Talent Scholarship (Kominfo & Oracle
+                                Academy) yang berfokus pada dasar pemrograman Java, basis data, komputasi awan, dan
+                                manajemen proyek. Mengembangkan basic game menggunakan Greenfoot serta proyek animasi
+                                menggunakan Alice.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date">Mar 2025 - Sekarang</span>
+                            <h3 class="timeline__title">Anggota Departemen Minat & Bakat</h3>
+                            <p class="timeline__subtitle">Himpunan Mahasiswa Infomatika, Fakultas Teknik, Universitas
+                                Sultan Ageng Tirtayasa</p>
+                            <p class="timeline__description">
+                                Berkontribusi aktif dalam perencanaan dan pelaksanaan program kerja yang mendukung
+                                pengembangan minat
+                                dan bakat mahasiswa Informatika, termasuk penyelenggaraan lomba, pelatihan, dan berbagai
+                                kegiatan
+                                kemahasiswaan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+
+                <div class="projects__container">
+                    <!-- Project Card 1 -->
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="assets/images/KANTIN JAWARA.png" alt="Kantin Jawara" loading="lazy">
+                            <div class="project__overlay">
+                                <a href="https://github.com/penyulaut/Kantin-Jawara" target="_blank"
+                                    rel="noopener noreferrer" class="project__link" aria-label="View code">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Kantin Jawara</h3>
+                            <p class="project__description">
+                                Aplikasi Android ini dirancang untuk memudahkan mahasiswa dalam memesan makanan di
+                                kantin kampus secara cepat dan efisien. Dengan tampilan yang modern dan responsif,
+                                pengguna dapat dengan mudah menjelajahi menu, memilih makanan favorit, dan melakukan
+                                pemesanan hanya dalam beberapa langkah. Proyek ini berfokus pada peningkatan pengalaman
+                                pengguna serta optimalisasi proses pemesanan makanan di lingkungan kampus.
+                            </p>
+                            <div class="project__tags">
+                                <span class="project__tag">Flutter</span>
+                                <span class="project__tag">Laravel</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3 class="contact__card-title">Email</h3>
+                                <a href="mailto:sirrulfatih471@gmail.com"
+                                    class="contact__card-data">sirrulfatih471@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3 class="contact__card-title">Lokasi</h3>
+                                <span class="contact__card-data">Indonesia</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__card-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                </svg>
+                            </div>
+                            <div class="contact__card-content">
+                                <h3 class="contact__card-title">WhatsApp</h3>
+                                <a href="https://wa.me/62895391996518" target="_blank" rel="noopener noreferrer"
+                                    class="contact__card-data">+62 895 3919 96518</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <a href="#home" class="footer__logo">
+                        <span class="logo-accent">Sirrul Fatih Ahdiat</span>
+                    </a>
+                    <p class="footer__description">
+                        Mahasiswa Informatika 2023 Universitas Sultan Ageng Tirtayasa.
+                    </p>
+                </div>
+
+                <div class="footer__links">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__list">
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#projects" class="footer__link">Projects</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <h3 class="footer__title">Follow Me</h3>
+                    <div class="footer__social-links">
+                        <a href="https://github.com/SirrulFatih" target="_blank" rel="noopener noreferrer"
+                            class="footer__social-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/sirrul-fatih" target="_blank" rel="noopener noreferrer"
+                            class="footer__social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com/sirrulfatih_" target="_blank" rel="noopener noreferrer"
+                            class="footer__social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copy">
+                    &copy; 2026 <span class="logo-accent">Sirrul Fatih Ahdiat</span>. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15" />
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
