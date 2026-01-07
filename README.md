@@ -47,7 +47,10 @@ portfolio/
         │   └── apple-touch-icon.png
         ├── profile.jpg         # Foto profil hero
         ├── og-image.png        # Open Graph image
-        └── KANTIN JAWARA.png   # Screenshot project
+        ├── KANTIN JAWARA.png   # Screenshot project Kantin Jawara
+        ├── Cucikuy.png         # Screenshot project Cucikuy
+        ├── Panganjawara.png    # Screenshot project Pangan Jawara
+        └── Rentalpees.png      # Screenshot project Rental PS
 ```
 
 ## 🚀 Cara Deploy ke GitHub Pages
@@ -144,7 +147,10 @@ Siapkan gambar-gambar berikut sebelum deploy:
 | `og-image.png` | 1200x630px | Preview saat link dibagikan |
 | `favicon.svg` | 32x32px | Icon browser tab |
 | `apple-touch-icon.png` | 180x180px | Icon untuk iOS |
-| `KANTIN JAWARA.png` | 800x500px | Screenshot project |
+| `KANTIN JAWARA.png` | 800x500px | Screenshot project Kantin Jawara (Flutter, Laravel) |
+| `Cucikuy.png` | 800x500px | Screenshot project Cucikuy (Django, Python) |
+| `Panganjawara.png` | 800x500px | Screenshot project Pangan Jawara (React.js, Express.js) |
+| `Rentalpees.png` | 800x500px | Screenshot project Rental PS (Laravel, SQL Server) |
 | `cv.pdf` | - | File CV untuk di-download |
 
 ## 📱 Browser Support
