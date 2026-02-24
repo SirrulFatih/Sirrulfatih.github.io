@@ -19,7 +19,10 @@ Website portfolio pribadi yang modern, responsif, dan siap di-hosting menggunaka
 - **About** - Informasi tentang saya
 - **Skills** - Technical Skills & Tools & Software dalam bentuk tags/badges
 - **Education** - Riwayat pendidikan dengan timeline
-- **Experience** - Pengalaman organisasi dan kegiatan
+- **Experience** - Pengalaman organisasi dan kegiatan:
+  - Coding Camp Dicoding – Full Stack Developer (Studi Independen, Feb 2026 – Jul 2026)
+  - Anggota Departemen Minat & Bakat HIMATIF UNTIRTA (Mar 2025 - Sekarang)
+  - Digital Talent Scholarship - Java Programming (Feb 2024 - Jun 2024)
 - **Projects** - Showcase karya dan portfolio
 - **Contact** - Informasi kontak (Email, Lokasi, WhatsApp)
 - **Footer** - Link sosial media dan navigasi
@@ -75,10 +78,10 @@ portfolio/
 
 ```bash
 # Clone repository
-git clone https://github.com/username/portfolio.git
+git clone https://github.com/SirrulFatih/sirrulfatih.github.io.git
 
 # Masuk ke folder
-cd portfolio
+cd sirrulfatih.github.io
 
 # Copy semua file portfolio ke folder ini
 
@@ -106,8 +109,8 @@ git push origin main
 ### Langkah 4: Akses Website
 
 Website akan tersedia di:
-- `https://username.github.io/portfolio/` (jika nama repo: portfolio)
-- `https://username.github.io/` (jika nama repo: username.github.io)
+- `https://sirrulfatih.github.io/` (jika nama repo: sirrulfatih.github.io)
+- `https://sirrulfatih.github.io/portfolio/` (jika nama repo: portfolio)
 
 ## 📝 Kustomisasi
 
@@ -147,11 +150,16 @@ Siapkan gambar-gambar berikut sebelum deploy:
 | `og-image.png` | 1200x630px | Preview saat link dibagikan |
 | `favicon.svg` | 32x32px | Icon browser tab |
 | `apple-touch-icon.png` | 180x180px | Icon untuk iOS |
-| `KANTIN JAWARA.png` | 800x500px | Screenshot project Kantin Jawara (Flutter, Laravel) |
-| `Cucikuy.png` | 800x500px | Screenshot project Cucikuy (Django, Python) |
-| `Panganjawara.png` | 800x500px | Screenshot project Pangan Jawara (React.js, Express.js) |
-| `Rentalpees.png` | 800x500px | Screenshot project Rental PS (Laravel, SQL Server) |
 | `cv.pdf` | - | File CV untuk di-download |
+
+### Screenshots Project
+
+| File | Tech Stack | Keterangan |
+|------|------------|------------|
+| `KANTIN JAWARA.png` | Flutter, Laravel | Aplikasi pemesanan makanan kantin kampus |
+| `Cucikuy.png` | Django, Python | Aplikasi pengelolaan layanan cuci kendaraan |
+| `Panganjawara.png` | React.js, Express.js | Platform edukasi pertanian berbasis website |
+| `Rentalpees.png` | Laravel, SQL Server | Aplikasi manajemen rental PlayStation |
 
 ## 📱 Browser Support
 
